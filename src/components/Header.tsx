@@ -55,7 +55,7 @@ export default function Header() {
 
           {/* Demo Links Start */}
           <Link
-            to="/"
+            to="/about"
             onClick={() => setIsOpen(false)}
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 transition-colors mb-2"
             activeProps={{
@@ -68,7 +68,7 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/"
+            to="/images"
             onClick={() => setIsOpen(false)}
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 transition-colors mb-2"
             activeProps={{
@@ -81,7 +81,7 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/"
+            to="/contact"
             onClick={() => setIsOpen(false)}
             className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 transition-colors mb-2"
             activeProps={{
