@@ -4,8 +4,8 @@ export const Route = createFileRoute("/")({ component: App });
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#c58f60]">
-      <main className="container w-screen">
+    <main className="min-h-screen bg-[#c58f60]">
+      <div className="container w-screen">
         <header className="header flex items-center justify-center gap-12 py-16 px-6 max-w-7xl mx-auto">
           <div className="text-container text-center ">
             <div className="text flex flex-col content-evenly items-center justify-center h-full w-full">
@@ -24,7 +24,7 @@ function App() {
             />
           </div>
         </header>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }

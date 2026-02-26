@@ -6,8 +6,8 @@ export const Route = createFileRoute("/about")({
 
 function RouteComponent() {
   return (
-    <div className="min-h-screen bg-[#c58f60]">
-      <main className="container w-screen">
+    <main className="min-h-screen bg-[#c58f60]">
+      <div className="container w-screen">
         <header className="header flex items-center justify-center gap-12 py-16 px-6 max-w-7xl mx-auto">
           <div className="text-container">
             <div className="text">
@@ -46,7 +46,7 @@ function RouteComponent() {
             />
           </div>
         </header>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
