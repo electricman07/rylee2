@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="min-h-screen bg-[#c58f60]">
       <div className="container w-screen">
-        <header className="header flex items-center justify-center gap-12 py-16 px-6 max-w-7xl mx-auto">
+        <header className="header flex items-center justify-center gap-12 py-6 px-6 max-w-7xl mx-auto">
           <div className="text-container text-center ">
             <div className="text flex flex-col content-evenly items-center justify-center h-full w-full">
               <h2 className="pre-header text-4xl m-1 mt-8">Hello!!! I'm</h2>
