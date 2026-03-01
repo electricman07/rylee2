@@ -58,7 +58,7 @@ export default function Header() {
             <span className="font-medium">Home</span>
           </Link>
 
-          {/* Demo Links Start */}
+          {/* Links Start */}
           <Link
             to="/about"
             onClick={() => setIsOpen(false)}
@@ -97,7 +97,7 @@ export default function Header() {
             <Contact size={20} />
             <span className="font-medium">Contact</span>
           </Link>
-          {/* Demo Links End */}
+          {/* Links End */}
         </nav>
       </aside>
     </>
