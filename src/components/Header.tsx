@@ -17,7 +17,12 @@ export default function Header() {
           <Menu size={24} />
         </button>
         <h1 className="ml-4 text-xl font-semibold">
-          <Link to="/">
+          <Link to="/" className="flex">
+            <img
+              className="w-10 h-10 rounded-full inline-block mr-2"
+              src="/images/profile.png"
+              alt="Profile of Rylee the beagle"
+            />
             <h2 className="text-2xl font-bold text-[#c58f60]">Rylee</h2>
           </Link>
         </h1>
