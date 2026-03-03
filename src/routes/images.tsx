@@ -31,11 +31,15 @@ function RouteComponent() {
 
   return (
     <>
-      <MasonryPhotoAlbum
-        photos={photos}
-        padding={12}
-        onClick={({ index }) => setIndex(index)}
-      />
+      <div className="bg-[#c58f60]">
+        <h2 className="text-8xl text-center py-12">My Photos</h2>
+        <MasonryPhotoAlbum
+          photos={photos}
+          padding={12}
+          breakpoints={[300, 600, 900, 1200]}
+          onClick={({ index }) => setIndex(index)}
+        />
+      </div>
       <Lightbox
         slides={photos}
         open={index >= 0}
