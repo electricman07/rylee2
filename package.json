@@ -25,8 +25,10 @@
     "nitro": "npm:nitro-nightly@latest",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-photo-album": "^3.5.1",
     "swiper": "^12.1.2",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "yet-another-react-lightbox": "^3.29.1"
   },
   "devDependencies": {
     "@tanstack/devtools-vite": "^0.3.11",
