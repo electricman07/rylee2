@@ -6,12 +6,12 @@ export const Route = createFileRoute("/about")({
 
 function RouteComponent() {
   return (
-    <main className="min-h-screen bg-[#c58f60]">
+    <main className=" bg-[#c58f60]">
       <div className="container w-screen">
-        <header className="header flex items-center justify-center gap-12 py-16 px-6 max-w-7xl mx-auto">
+        <header className="header flex justify-center gap-12 py-16 px-6 max-w-7xl mx-auto">
           <div className="text-container">
             <div className="text">
-              <h1 className="main-header text-8xl m-1 mt-20 ml-52">About Me</h1>
+              <h1 className="main-header text-8xl m-1 mt-10 ml-52">About Me</h1>
               <div className="mr-4 mb-2 mt-10 text-lg p-4">
                 <p className="mb-4">
                   I am short for a beagle and have the traditional coloring with
@@ -41,7 +41,7 @@ function RouteComponent() {
           <div className="image-header mt-2 mr-4 mb-2 flex justify-center items-center h-screen w-full">
             <img
               src="/images/about.jpg"
-              alt="Rylee the Beagle"
+              alt="Rylee the Beagle lying down on the couch"
               className="w100 h100 rounded-lg"
             />
           </div>
