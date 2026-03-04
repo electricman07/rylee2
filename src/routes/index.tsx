@@ -9,7 +9,9 @@ function App() {
         <header className="header flex items-center justify-center gap-12 py-6 px-6 max-w-7xl mx-auto">
           <div className="text-container text-center ">
             <div className="text flex flex-col content-evenly items-center justify-center h-full w-full">
-              <h2 className="pre-header text-4xl m-1 mt-8">Hello!!! I'm</h2>
+              <h2 className="pre-header text-4xl m-1 mt-8">
+                In rememberance of
+              </h2>
               <h1 className="main-header text-8xl m-1 mt-20 ml-52">Rylee</h1>
               <h3 className="sub-header text-2xl mt-20 ml-40">
                 the very friendly beagle
@@ -24,6 +26,12 @@ function App() {
             />
           </div>
         </header>
+        <div className="dates text-center">
+          <h2 className="text-4xl m-1 mt-8">2013 - 2025</h2>
+          <h3 className="text-2xl mt-5">
+            In loving memory of a special beagle
+          </h3>
+        </div>
       </div>
     </main>
   );
