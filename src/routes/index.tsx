@@ -20,7 +20,7 @@ function App() {
             <img
               className="w100 h100 rounded-lg"
               src="/images/header.jpg"
-              alt="image of Rylee sitting in the grass"
+              alt="Rylee sitting in the grass"
             />
           </div>
         </header>
